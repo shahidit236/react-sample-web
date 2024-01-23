@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between; /* To space the content horizontally */
+    align-items: center; /* Align content vertically */
+    /* background-color: #f2f2f2; */
+    background-color: #b79e9e;
+    margin:20px;
+
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust the width of your logo */
+    height: auto;
+    margin-left: 50px;
+  }
+  .navigation{
+    margin-right: 20%;
+  }
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    margin-right: 20px;
+  }
+  
+  .navigation ul li:last-child {
+    margin-right: 0; /* Remove margin for the last navigation item */
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  

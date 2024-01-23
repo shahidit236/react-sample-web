@@ -1,0 +1,14 @@
+.banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 97%;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* transition: transform 0.5s ease-in-out; */
+  }
+  
